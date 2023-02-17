@@ -1,0 +1,17 @@
+[package]
+name = "RTS_Assignment_2"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+threadpool = "1.0"
+scheduled-thread-pool = "0.2.6"
+amiquip = "0.4"
+rand = "0.8.3"
+
+bincode = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+arraylist = "0.1.3"
+bma-benchmark = "0.0.18"
