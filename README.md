@@ -1,7 +1,6 @@
 # ProducerConsumer-Problem-Multithreading
 
-## The aim of this project is to compare the performance of two programming languages (Java & Rust) with implementing the concurrent concept. A simulation will be 
-developed using two different programming languages which are Java and Rust in order to identify how the performance of the system will be affected by utilizing different programming languages to develop.
+## The aim of this project is to compare the performance of two programming languages (Java & Rust) with implementing the concurrent concept. A simulation will be developed using two different programming languages which are Java and Rust in order to identify how the performance of the system will be affected by utilizing different programming languages to develop.
 
 
 ### Simulation Scenario
