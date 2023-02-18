@@ -13,5 +13,6 @@ For Java implementation, RabbitMQ will be used as a messaging broker to transfer
 used to benchmark the scenario. As for Rust implementation, Amiquip which is a client of RabbitMQ written in Rust will be used to transfer messages while the bma_benchmark will be used for benchmarking.
 
 ### Results
+<img src="https://user-images.githubusercontent.com/82216057/219869757-12339cbc-85b2-48b9-b914-b730ca15ec5c.png" width="600" height="300">
 
 From the table above, it can be observed that in terms of throughput, the bma_benchmark for Rust did not provide a much clearer detail of the score. However, in terms of executing time, Rust is slightly ahead of Java by two seconds. Thus, it can be concluded Rust performs better than Java in terms of speed. One of the main reasons would be Java is using garbage collection for managing memory.
